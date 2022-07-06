@@ -1,0 +1,16 @@
+#my:
+#  greeting: hello from gateway service config of project file
+#  list:
+#    values: One, Two, Three
+
+#db:
+#  connection: connection-string-from-inside-project-applicaiton.yml file
+#  host: 127.0.0.1
+#  port: 1200
+
+
+management.endpoints.web.exposure.include: "*"
+
+spring.application.name: gateway-service
+
+spring.cloud.config.uri: http://localhost:8888
