@@ -1,0 +1,7 @@
+my.greeting: Hi Dawood, From Config server yml.
+
+
+db:
+  connection: db-connection, From Config server yml.
+  host: 127.0.0.1
+  port: 1200
